@@ -1,0 +1,102 @@
+{
+    'Time': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199],
+    'Value': [0.176405, 0.139849, 0.296543, 0.519610, 0.576174, 0.381698, 0.659651, 0.629082, 0.707034, 0.824387, 0.787315, 1.010458, 0.971492, 0.989995, 0.992701, 1.088212, 0.957929, 1.089906, 1.057877, 1.077731, 1.041198, 0.952233, 0.818913, 0.877203, 0.652093, 0.656880, 0.609364, 0.616724, 0.325826, 0.332302, 0.163660, 0.250665, 0.116553, -0.074265, -0.150944, -0.292096, -0.487084, -0.385093, -0.508371, -0.695862, -0.796707, -0.803165, -0.868504, -0.968871, -0.993259, -1.034054, -1.057141, -1.149564, -1.183106, -1.129593, -1.106212, -1.004025, -0.917267, -1.004771, -0.950916, -0.742188, -0.819804, -0.699759, -0.598179, -0.425192, -0.441119, -0.295980, -0.109653, 0.036441, -0.003803, 0.131118, 0.227824, 0.215101, 0.465736, 0.506602, 0.530820, 0.617756, 0.733682, 0.770135, 0.897588, 0.835144, 0.954695, 0.866365, 1.010311, 1.038030, 1.041202, 1.049876, 1.038266, 1.026306, 1.054277, 0.830006, 0.768251, 0.710919, 0.610009, 0.615895, 0.469436, 0.456973, 0.400094, 0.219795, 0.202054, 0.098238, 0.092198, 0.064706, -0.064825, -0.288706, -0.200768, -0.337192, -0.505290, -0.602796, -0.707276, -0.872597, -0.913962, -0.948063, -1.039189, -1.060768, -1.033963, -1.152255, -1.031415, -1.092741, -0.946812, -0.982700, -0.852294, -0.755639, -0.785941, -0.611980, -0.599941, -0.439042, -0.392327, -0.264186, -0.099062, -0.078512, 0.040797, 0.161148, 0.149306, 0.285973, 0.457540, 0.466029, 0.646510, 0.746961, 0.711467, 0.841730, 0.891315, 0.930896, 1.013211, 0.965278, 0.952032, 0.968605, 0.767868, 0.834506, 0.671066, 0.508288, 0.544018, 0.328253, 0.286274, 0.183011, 0.024056, -0.061658, -0.158887, -0.246227, -0.359703, -0.496257, -0.624408, -0.590079, -0.732183, -0.904993, -0.902017, -0.941963, -1.091646, -1.058518, -1.093504, -1.118953, -1.034469, -0.946222, -0.872544, -0.857076, -0.674961, -0.602469, -0.432498, -0.354948, -0.303347, -0.117185, -0.079263, 0.057191, 0.146305, 0.208374, 0.383865, 0.426549, 0.532725, 0.576327, 0.688487, 0.702098, 0.866670, 0.835254, 0.997471, 0.882133, 0.980324, 0.920343, 0.960844, 0.776487, 0.707146, 0.678070, 0.600285, 0.452690, 0.478680, 0.316371, 0.216737, 0.176739, 0.006850, -0.016810, -0.154649, -0.209759, -0.325214, -0.527198, -0.525994, -0.647259, -0.830192, -0.838158, -0.935485, -1.063636, -1.028995, -1.042057, -1.074025, -1.024929, -0.888834, -0.804235, -0.743217, -0.648058, -0.506308, -0.432091, -0.231950, -0.199642, -0.040486, 0.094497, 0.135520, 0.317320, 0.399141, 0.536457, 0.529864, 0.716120, 0.656349, 0.768809, 0.792348, 0.928861, 0.846799, 0.955059, 0.970436, 1.063890, 0.898859, 0.920084, 0.874266, 0.767104, 0.737828, 0.666204, 0.510832, 0.388923, 0.408305, 0.261130, 0.130097, 0.056257, 0.020592, 0.274539, 0.339387, 0.318556, 0.575393, 0.588385, 0.759143, 0.833924, 1.029997, 1.001297]
+}
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from statsmodels.tsa.arima.model import ARIMA
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+
+# Create a DataFrame
+df = pd.DataFrame({'Time': time, 'Value': data})
+
+# Plot original data
+plt.figure(figsize=(10, 6))
+plt.plot(df['Time'], df['Value'], label='Original Data')
+plt.xlabel('Time')
+plt.ylabel('Value')
+plt.title('Original Time Series Data')
+plt.legend()
+plt.show()
+
+# Fit ARIMA model to remove trend and seasonality
+arima_model = ARIMA(df['Value'], order=(5, 1, 0))
+arima_result = arima_model.fit()
+df['Residual'] = arima_result.resid
+
+# Plot residuals
+plt.figure(figsize=(10, 6))
+plt.plot(df['Time'], df['Residual'], label='Residuals')
+plt.xlabel('Time')
+plt.ylabel('Residuals')
+plt.title('Residuals After ARIMA')
+plt.legend()
+plt.show()
+
+# Normalize the residuals for LSTM
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(df['Residual'].values.reshape(-1, 1))
+
+# Prepare the data for LSTM
+look_back = 10
+X, y = [], []
+for i in range(len(scaled_data) - look_back):
+    X.append(scaled_data[i:i + look_back])
+    y.append(scaled_data[i + look_back])
+
+X = np.array(X)
+y = np.array(y)
+
+# Split the data into training and testing sets
+train_size = int(len(X) * 0.8)
+X_train, X_test = X[:train_size], X[train_size:]
+y_train, y_test = y[:train_size], y[train_size:]
+
+# Build the LSTM model
+model = Sequential()
+model.add(LSTM(50, input_shape=(look_back, 1), return_sequences=True))
+model.add(LSTM(50))
+model.add(Dense(1))
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Train the LSTM model
+model.fit(X_train, y_train, epochs=20, batch_size=1, verbose=2)
+
+# Make predictions
+train_predict = model.predict(X_train)
+test_predict = model.predict(X_test)
+
+# Invert predictions to original scale
+train_predict = scaler.inverse_transform(train_predict)
+test_predict = scaler.inverse_transform(test_predict)
+
+# Create a dataframe to hold the predictions and residuals
+predict_df = df[look_back:len(train_predict)+look_back].copy()
+predict_df['Train_Predict'] = train_predict.flatten()
+predict_df['Test_Predict'] = np.nan
+
+# Assign test predictions correctly
+test_predict_df = df[train_size + look_back:].copy()
+test_predict_df['Test_Predict'] = test_predict.flatten()
+predict_df = predict_df.append(test_predict_df[['Test_Predict']], ignore_index=False)
+
+# Calculate the anomaly score as the absolute error
+predict_df['Error'] = np.abs(predict_df['Residual'] - predict_df['Train_Predict'].fillna(predict_df['Test_Predict']))
+
+# Identify anomalies as points with error above a threshold
+threshold = 3 * predict_df['Error'].std()
+predict_df['Anomaly'] = predict_df['Error'] > threshold
+
+# Plot the results with anomalies highlighted
+plt.figure(figsize=(10, 6))
+plt.plot(df['Time'], df['Value'], label='Original Data')
+plt.scatter(predict_df['Time'][predict_df['Anomaly']], df['Value'][predict_df['Anomaly']], color='red', label='Anomalies')
+plt.xlabel('Time')
+plt.ylabel('Value')
+plt.title('Hybrid ARIMA-LSTM Anomaly Detection')
+plt.legend()
+plt.show()

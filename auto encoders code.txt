@@ -1,0 +1,56 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+import tensorflow as tf
+from tensorflow.keras import layers
+
+# Load the data
+data = pd.read_csv("Anomaly dataset for deep learning.csv")
+data.head()
+
+#label encoding 
+for column in data.columns:
+    if data[column].dtype == np.object:
+        encoded = LabelEncoder()
+                encoded.fit(data[column])
+        data[column] = encoded.transform(data[column])
+data.head()
+
+### Checking Null values
+list1 = []
+for i in data.columns:
+  null = sum(pd.isnull(data[i]))
+  null1 = i+' - '+str(null)
+  list1.append(null1)
+list1
+
+# Preprocess the data
+mean = np.mean(data, axis=0)
+std = np.std(data, axis=0)
+data = (data - mean) / std
+data.head()
+
+# Build the autoencoder model
+input_layer = tf.keras.layers.Input(shape=(data.shape[1],))
+encoded = tf.keras.layers.Dense(128, activation="relu")(input_layer)
+encoded = tf.keras.layers.Dense(64, activation="relu")(encoded)
+decoded = tf.keras.layers.Dense(128, activation="relu")(encoded)
+decoded = tf.keras.layers.Dense(data.shape[1], activation="sigmoid")(decoded)
+autoencoder = tf.keras.models.Model(input_layer, decoded)
+autoencoder.compile(optimizer="adam", loss="mean_squared_error")
+
+# Train the autoencoder
+autoencoder.fit(data, data, epochs=100, batch_size=64)
+
+# Calculate the reconstruction error for each sample
+predictions = autoencoder.predict(data)
+reconstruction_error = np.mean((predictions - data)**2, axis=1)
+
+# Threshold the reconstruction error to identify anomalies
+threshold = np.mean(reconstruction_error) + 3 * np.std(reconstruction_error)
+anomalies = np.where(reconstruction_error > threshold)
+anomalies
+
+anomaly_data = data.iloc[[i for i in anomalies[0]]]
+anomaly_data
